@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en" class="dark-theme">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr. Sajjad Iqbal Portfolio</title>
+    <meta name="description"
+        content="Professional portfolio of a dedicated Systems Administrator /Cum Computer Operator specializing in IT infrastructure, troubleshooting, and seamless operations.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Sys<span class="highlight">Admin</span></a>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#skills">Skills & Services</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-controls">
+                <button class="lang-btn" aria-label="Toggle Language">EN</button>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="menu-btn" id="menuBtn" aria-label="Open Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-content">
+            <button class="close-menu" id="closeMenu"><i class="fas fa-times"></i></button>
+            <ul class="mobile-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#skills">Skills & Services</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Home/Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-container">
+            <div class="hero-content reveal-left">
+                <span class="badge">Systems Administrator /Cum Computer Operator</span>
+                <h1 class="hero-title">I'm <span class="highlight">Mr. Sajjad Iqbal</span>,</h1><br>
+                <h3>Driving Innovation in IT Infrastructure for the District Judiciary</h3>
+                <p class="hero-subtitle">I ensure that networks, servers, and computing environments run smoothly,
+                    securely, and seamlessly. With deep expertise in system administration and technical support, I turn
+                    complex IT challenges into robust solutions.</p>
+                <div class="hero-actions">
+                    <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+                <div class="scroll-indicator">
+                    <p>Scroll to explore</p>
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image reveal-right">
+                <div class="image-wrapper glass-panel">
+                    <img src="assets/images/profile_picture.png" alt="Professional Portrait" class="profile-pic">
+                    <div class="floating-badge badge-1">
+                        <i class="fas fa-server"></i>
+                        <span>99.9% Uptime</span>
+                    </div>
+                    <div class="floating-badge badge-2">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Secure Systems</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2>About <span class="highlight">Me</span></h2>
+                <p>My journey in the IT world and the values that drive my work.</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text glass-panel reveal-left">
+                    <h3>The Story Behind the Screen</h3>
+                    <p>Hi, I am <strong>Mr. Sajjad Iqbal</strong>, a dedicated System Administrator and Computer
+                        Operator with over a decade of experience in deploying, managing, and securing IT
+                        infrastructure. My journey began with an innate curiosity about how computer networks
+                        communicate, which quickly evolved into a full-fledged career managing mission-critical
+                        enterprise systems.</p>
+
+                    <p>Alongside my administrative work, I have taught BS-level Computer Science courses for four years
+                        at Government Degree College Dir, where I shared my expertise with aspiring IT professionals. I
+                        also gained valuable industry experience during my two years at NADRA, serving as a Backup
+                        Officer In-Charge (OIC), where I contributed to secure data management and operational
+                        continuity.</p>
+
+                    <p>I value <strong>reliability</strong>, <strong>security</strong>, and <strong>efficiency</strong>.
+                        Whether I'm provisioning new cloud servers, troubleshooting complex network bottlenecks, or
+                        assisting end-users, my focus is always on creating seamless, invisible technology experiences
+                        that drive organizational success. With deep expertise in system administration and technical
+                        support, I transform complex IT challenges into robust, reliable solutions for the District
+                        Judiciary.</p>
+
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h4 class="stat-number">8+</h4>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+
+                        <div class="stat-item">
+                            <h4 class="stat-number">100%</h4>
+                            <span class="stat-label">Commitment</span>
+                        </div>
+                    </div>
+
+                    <a href="assets/resume.pdf" class="btn btn-primary mt-4" target="_blank" download>
+                        <i class="fas fa-download"></i> Download Résumé
+                    </a>
+                </div>
+
+                <div class="about-details reveal-right">
+                    <div class="detail-card education-card glass-panel">
+                        <div class="edu-header">
+                            <i class="fas fa-graduation-cap edu-icon"></i>
+                            <h3>Education</h3>
+                        </div>
+                        <div class="timeline-list">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>MS (Computer Science)</h4>
+                                    <p class="institution">SBBU Sheringal, 2021–2025</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>BS Computer Science</h4>
+                                    <p class="institution">University of Peshawar, 2014–2018</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="detail-card experience-card glass-panel">
+                        <div class="exp-header">
+                            <i class="fas fa-briefcase exp-icon"></i>
+                            <h3>Experience</h3>
+                        </div>
+                        <div class="timeline-list">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>System Administrator</h4>
+                                    <p class="institution">District Judiciary Dir Upper, 2024–Current<br>
+                                        <span class="text-sm text-dim">CFMIS, Hardware, & Network Troubleshooting</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Backup OIC</h4>
+                                    <p class="institution">NADRA, 2022–2024</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Lecturer Computer Science</h4>
+                                    <p class="institution">Various Institutions, 2018–2022<br>
+                                        <span class="text-sm text-dim">C++, HCI, Web Tech, Compiler Construction</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="detail-card glass-panel">
+                        <div class="card-icon"><i class="fas fa-award"></i></div>
+                        <div>
+                            <h4>Achievements</h4>
+                            <p>Improved overall network speed by 40%<br><span class="text-sm text-dim">Zero downtime
+                                    during major server migration</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2>Professional <span class="highlight">Certifications</span></h2>
+                <div class="header-underline"></div>
+            </div>
+
+            <div class="cert-grid">
+                <div class="cert-card glass-panel reveal-up">
+                    <div class="cert-icon">
+                        <i class="fas fa-table-cells-large"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h4>Microsoft Office Specialist (MOS)</h4>
+                        <p>Advanced data management and documentation.</p>
+                    </div>
+                </div>
+
+                <div class="cert-card glass-panel reveal-up" style="transition-delay: 0.1s;">
+                    <div class="cert-icon">
+                        <i class="fas fa-sitemap"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h4>Cisco Networking & Security</h4>
+                        <p>Infrastructure defense and network architecture.</p>
+                    </div>
+                </div>
+
+                <div class="cert-card glass-panel reveal-up" style="transition-delay: 0.2s;">
+                    <div class="cert-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h4>KP-BTE Diploma in IT</h4>
+                        <p>Core foundational excellence in information technology.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section bg-alt">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2>Featured <span class="highlight">Projects</span></h2>
+                <p>Case studies highlighting my expertise in system administration and network architecture.</p>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-card reveal-up">
+                    <div class="card-inner">
+                        <div class="card-front glass-panel">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/network_project.png" alt="Enterprise Network Redesign">
+                            </div>
+                            <div class="card-front-content">
+                                <div class="tags">
+                                    <span class="tag">Networking</span>
+                                    <span class="tag">Security</span>
+                                </div>
+                                <h3>Enterprise Network Redesign</h3>
+                                <p class="flip-prompt"><i class="fas fa-undo"></i> Hover for details</p>
+                            </div>
+                        </div>
+                        <div class="card-back glass-panel">
+                            <div class="card-content">
+                                <h3>Enterprise Network Redesign</h3>
+                                <p class="description">Revamped total corporate network infrastructure, replacing
+                                    outdated switches and implementing VLANs to improve security and isolate
+                                    inter-departmental traffic.</p>
+                                <div class="project-details">
+                                    <p><strong>Role:</strong> Lead System Engineer</p>
+                                    <p><strong>Tools:</strong> Cisco Meraki, Wireshark, pfSense</p>
+                                    <p><strong>Outcome:</strong> 40% speed improvement, zero security breaches
+                                        post-implementation.</p>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#" class="btn btn-outline btn-sm">Read Case Study</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-card reveal-up" style="transition-delay: 0.1s;">
+                    <div class="card-inner">
+                        <div class="card-front glass-panel">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/server_project.png" alt="Data Center Migration">
+                            </div>
+                            <div class="card-front-content">
+                                <div class="tags">
+                                    <span class="tag">Server Hardware</span>
+                                    <span class="tag">Virtualization</span>
+                                </div>
+                                <h3>Physical to Virtual Migration</h3>
+                                <p class="flip-prompt"><i class="fas fa-undo"></i> Hover for details</p>
+                            </div>
+                        </div>
+                        <div class="card-back glass-panel">
+                            <div class="card-content">
+                                <h3>Physical to Virtual Migration</h3>
+                                <p class="description">Spearheaded the migration of 50+ legacy physical servers into a
+                                    highly available VMware vSphere cluster, optimizing resource usage and power
+                                    consumption.</p>
+                                <div class="project-details">
+                                    <p><strong>Role:</strong> Virtualization Administrator</p>
+                                    <p><strong>Tools:</strong> VMware ESXi, vCenter, Veeam Backup</p>
+                                    <p><strong>Outcome:</strong> Reduced hardware footprint by 75% and improved disaster
+                                        recovery capabilities.</p>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#" class="btn btn-outline btn-sm">Read Case Study</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-card reveal-up" style="transition-delay: 0.2s;">
+                    <div class="card-inner">
+                        <div class="card-front glass-panel">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/cloud_project.png" alt="Cloud Infrastructure Setup">
+                            </div>
+                            <div class="card-front-content">
+                                <div class="tags">
+                                    <span class="tag">Cloud</span>
+                                    <span class="tag">Monitoring</span>
+                                </div>
+                                <h3>Multi-Cloud Dashboard</h3>
+                                <p class="flip-prompt"><i class="fas fa-undo"></i> Hover for details</p>
+                            </div>
+                        </div>
+                        <div class="card-back glass-panel">
+                            <div class="card-content">
+                                <h3>Multi-Cloud Dashboard</h3>
+                                <p class="description">Developed a centralized monitoring solution utilizing open-source
+                                    tools to track performance metrics across AWS, Azure, and on-premises
+                                    infrastructure.</p>
+                                <div class="project-details">
+                                    <p><strong>Role:</strong> Cloud Systems Administrator</p>
+                                    <p><strong>Tools:</strong> Grafana, Prometheus, Zabbix</p>
+                                    <p><strong>Outcome:</strong> Achieved unified visibility, reducing incident response
+                                        time by 60%.</p>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#" class="btn btn-outline btn-sm">View Demo <i
+                                            class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 (New) -->
+                <div class="portfolio-card reveal-up" style="transition-delay: 0.3s;">
+                    <div class="card-inner">
+                        <div class="card-front glass-panel">
+                            <div class="card-img-wrapper">
+                                <img src="assets/images/elibrary_project.png" alt="District Bar Council e-Library">
+                            </div>
+                            <div class="card-front-content">
+                                <div class="tags">
+                                    <span class="tag">Digital Library</span>
+                                    <span class="tag">Networking</span>
+                                </div>
+                                <h3>e-Library Setup</h3>
+                                <p class="flip-prompt"><i class="fas fa-undo"></i> Hover for details</p>
+                            </div>
+                        </div>
+                        <div class="card-back glass-panel">
+                            <div class="card-content">
+                                <h3>e-Library Setup</h3>
+                                <p class="description">Engineered and deployed a comprehensive digital e-Library system
+                                    for the District Bar Council, providing lawyers with instantaneous, secure access to
+                                    thousands of legal precedents, journals, and case studies.</p>
+                                <div class="project-details">
+                                    <p><strong>Role:</strong> Project Lead & Implementer</p>
+                                    <p><strong>Tools:</strong> Custom Server Architecture, Digital Library Software</p>
+                                    <p><strong>Outcome:</strong> Modernized legal research workflows, reducing physical
+                                        dependency by 80%.</p>
+                                </div>
+                                <div class="card-actions">
+                                    <a href="#" class="btn btn-outline btn-sm">Read Case Study</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Services Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2>Skills & <span class="highlight">Services</span></h2>
+                <p>Technical proficiencies and professional services I provide.</p>
+            </div>
+
+            <div class="skills-services-grid">
+                <!-- Services -->
+                <div class="services-column reveal-left">
+                    <h3 class="mb-4">Services Offered</h3>
+                    <div class="service-list">
+                        <div class="service-item glass-panel">
+                            <div class="service-icon"><i class="fas fa-server"></i></div>
+                            <div class="service-info">
+                                <h4>Server Administration</h4>
+                                <p>Setup, maintenance, and optimization of Windows and Linux servers, ensuring high
+                                    availability.</p>
+                            </div>
+                        </div>
+                        <div class="service-item glass-panel">
+                            <div class="service-icon"><i class="fas fa-network-wired"></i></div>
+                            <div class="service-info">
+                                <h4>Network Management</h4>
+                                <p>Designing and managing routers, switches, firewalls, and VPNs for secure
+                                    communications.</p>
+                            </div>
+                        </div>
+                        <div class="service-item glass-panel">
+                            <div class="service-icon"><i class="fas fa-headset"></i></div>
+                            <div class="service-info">
+                                <h4>IT Support & Troubleshooting</h4>
+                                <p>Comprehensive desktop support, hardware repair, and software troubleshooting for
+                                    end-users.</p>
+                            </div>
+                        </div>
+                        <div class="service-item glass-panel">
+                            <div class="service-icon"><i class="fas fa-code"></i></div>
+                            <div class="service-info">
+                                <h4>Web Developer</h4>
+                                <p>End-to-end Full Stack Web Development. Designing responsive front-end interfaces and
+                                    building secure, scalable back-end architectures.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div class="skills-column reveal-right">
+                    <h3 class="mb-4">Technical & Soft Skills</h3>
+
+                    <div class="skill-group glass-panel mb-4">
+                        <h4>Technical Expertise</h4>
+                        <div class="skill-tags mt-3">
+                            <span class="tag">Web Developer</span>
+                            <span class="tag">Windows Server</span>
+                            <span class="tag">Linux (Ubuntu/CentOS)</span>
+                            <span class="tag">Active Directory</span>
+                            <span class="tag">VMware / Hyper-V</span>
+                            <span class="tag">Cisco Networking</span>
+                            <span class="tag">Bash & PowerShell</span>
+                            <span class="tag">Office 365 Admin</span>
+                            <span class="tag">Backup Solutions</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group glass-panel">
+                        <h4>Soft Skills</h4>
+                        <ul class="soft-skills-list mt-3">
+                            <li><i class="fas fa-check-circle text-highlight"></i> <strong>Problem-Solving:</strong>
+                                Analytical approach to resolving complex system errors under pressure.</li>
+                            <li><i class="fas fa-check-circle text-highlight"></i> <strong>Communication:</strong>
+                                Translating technical jargon for non-technical stakeholders clearly.</li>
+                            <li><i class="fas fa-check-circle text-highlight"></i> <strong>Leadership:</strong>
+                                Mentoring junior tech support staff and leading IT project deployments.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section bg-alt">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2>Client <span class="highlight">Testimonials</span></h2>
+                <p>What colleagues and managers say about my work.</p>
+            </div>
+
+            <div class="testimonial-grid">
+                <div class="testimonial-card glass-panel reveal-up">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">"He is recognized as one of the most reliable professionals in his
+                        field, consistently demonstrating exceptional skill and commitment. With a strong sense of
+                        responsibility, he performs his duties with precision and integrity, ensuring that every task is
+                        completed to the highest standard. His dedication and expertise make him a trusted figure in
+                        both his work and service."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"><i class="fas fa-user-tie"></i></div>
+                        <div class="author-info">
+                            <h4>Sarah Jenkins</h4>
+                            <span>CTO, TechNova Solutions</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card glass-panel reveal-up" style="transition-delay: 0.1s;">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">"As a system administrator, he doesn't just fix problems; he anticipates
+                        them. The proactive monitoring systems he instituted have practically eliminated unexpected
+                        outages in our department."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"><i class="fas fa-user"></i></div>
+                        <div class="author-info">
+                            <h4>Fawad Khalil</h4>
+                            <span>Incharge IT Section</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card glass-panel reveal-up" style="transition-delay: 0.2s;">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">"His support as a Computer Operator is unparalleled. He always ensures
+                        everyone's workstations are running perfectly and is patient when explaining technical processes
+                        to non-technical staff."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar"><i class="fas fa-user-circle"></i></div>
+                        <div class="author-info">
+                            <h4>Waqar Ahmad Tajak</h4>
+                            <span>Computer Operator</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog / Insights Section (Optional) -->
+    <section id="blog" class="blog section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2>IT <span class="highlight">Insights</span></h2>
+                <p>My thoughts on industry trends, server architecture, and best practices.</p>
+            </div>
+
+            <div class="blog-grid">
+                <article class="blog-card glass-panel reveal-up">
+                    <div class="blog-date">March 12, 2025</div>
+                    <h3>Top 5 Security Practices for Windows Server 2022</h3>
+                    <p>A deep dive into securing your enterprise environment against modern threats using built-in
+                        Windows features.</p>
+                    <a href="#" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                </article>
+                <article class="blog-card glass-panel reveal-up" style="transition-delay: 0.1s;">
+                    <div class="blog-date">February 28, 2025</div>
+                    <h3>Automating Routine Tasks with PowerShell</h3>
+                    <p>Stop doing manual work. Learn how to script your daily active directory management tasks for
+                        efficiency.</p>
+                    <a href="#" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section bg-alt">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2>Get in <span class="highlight">Touch</span></h2>
+                <p>Looking for a reliable IT professional to manage your systems? Let's talk.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info glass-panel reveal-left">
+                    <h3>Contact Information</h3>
+                    <p class="mb-4">Feel free to reach out via email or connect with me on professional platforms.</p>
+
+                    <div class="contact-item">
+                        <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <p><a href="sajjadiqbal031@gmail.com">sajjadiqbal031@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="icon-box"><i class="fas fa-phone"></i></div>
+                        <div class="info-content">
+                            <h4>Phone</h4>
+                            <p><a href="tel:+1234567890">+92 301-8922658</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="icon-box"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="info-content">
+                            <h4>Location</h4>
+                            <p>Teh District, Barawal Bandi Dir Upper</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links mt-4">
+                        <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <form class="contact-form glass-panel reveal-right" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" required class="form-control" placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" required class="form-control" placeholder="john@company.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" required class="form-control" placeholder="IT Consultation">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" required class="form-control"
+                            placeholder="How can I help you?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Send Message <i
+                            class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <a href="#home" class="logo">Sys<span class="highlight">Admin</span></a>
+                <p>Ensuring your systems run flawlessly 24/7/365.</p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy;2026 Mr. Sajjad Iqbal Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
